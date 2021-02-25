@@ -1,5 +1,5 @@
 # Topic-Modeling-Using-LDA
-Topic models are used to identify that best describe a set of documents. This notebook used Latent Dirichlet Allocation to try and identify topics in airline tweets.
+Topic models are used to identify topics that best describe a set of documents. This notebook used Latent Dirichlet Allocation to try and identify topics in airline tweets.
 
 * After loading the data, a function is built to preprocesses the text. This step uses spacy to lemmatze and only allow words that have the specified pos tags.
 * Use the gensim library to create our vocab dictionary and corpus in bag of words format.
